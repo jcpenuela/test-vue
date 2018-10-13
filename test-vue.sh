@@ -1,7 +1,5 @@
 #!/bin/sh
-cd $HOME/environment
-. env/bin/activate
-cd test-vue
+cd $HOME/environment/test-vue
 # pwd
 # python3 web.py
-python3 test-vue.py
+sudo $HOME/environment/env/bin/python test-vue.py
